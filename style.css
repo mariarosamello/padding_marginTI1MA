@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:serif;
+    font-size: 14px;
+}
+
+
+.perfil {
+    width: 325px;
+    margin: 5px auto 0;
+    border: 1px solid #333;
+    position: relative;
+}
+
+
+.topo {
+    height: 185px;
+    position: relative;
+}
+
+
+.foto {
+    width: 145px;
+    height: 150px;
+
+    border: 1px solid #333;
+
+    padding: 4px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.contato {
+    
+    position: absolute;
+   
+    top: 148px;
+
+    width: 128px;
+    height: 35px;
+
+    border: 1px solid #999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
+    color: #0000ee;
+}
+
+.informacoes {
+    width: 100%;
+}
+
+.informacoes div {
+    height: 23px;
+    border-top: 1px solid #999;
+    padding: 3px;
+}
+
+
+.paragrafo {
+    border-top: 1px solid #999;
+    padding: 1px;
+}
+
+
+.primeiro {
+    margin-bottom: 40px;
+}
+
+
+.segundo {
+    margin-top: 20px;
+}
+
+
+.caixas {
+    display: flex;
+    gap: 3px;
+    padding-left: 0;
+}
+
+
+.caixa {
+    width: 68px;
+    height: 68px;
+    border: 1px solid #555;
+}
+
+
+footer {
+    height: 19px;
+    border: 1px solid #555;
+    margin: 10px 20px 30px 40px;
+    padding: 1px;
+}
